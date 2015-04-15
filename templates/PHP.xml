@@ -1,0 +1,47 @@
+<templateSet group="PHP">
+  <template name="ddd" value="echo '&lt;pre&gt;'; var_dump($DATA$); echo '&lt;/pre&gt;'; die();" description="Nice Dump &amp; Die" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="obd" value="ob_start();&#10;var_dump($DATA$);&#10;$d = ob_get_contents();&#10;ob_end_clean();&#10;// error_log(date('Y-m-d H:i:s').' '.$d, 3, dirname(__FILE__).'/debug.txt');&#10;\Log::info($d);" description="OB Dump" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="d" value="var_dump($DATA$); " description="Simple Dump" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="echo '&lt;pre&gt;'; var_dump($DATA$); echo '&lt;/pre&gt;';" description="Nice Dump" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

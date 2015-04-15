@@ -1,0 +1,68 @@
+<keymap version="1" name="SSETP" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta T" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="F4" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="F4" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="F4" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorJoinLines" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta DOWN" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta HOME" />
+    <keyboard-shortcut first-keystroke="meta UP" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="Refresh" />
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="F4" />
+  </action>
+  <action id="Replace" />
+  <action id="Rerun" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowNavBar" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift meta D" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="openAssertEqualsDiff" />
+</keymap>
