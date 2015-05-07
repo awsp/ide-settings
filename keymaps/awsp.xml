@@ -1,10 +1,13 @@
-<keymap version="1" name="SSETP" parent="Mac OS X 10.5+">
+<keymap version="1" name="awsp" parent="Mac OS X 10.5+">
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta T" />
   </action>
+  <action id="CheckinProject" />
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="DatabaseView.PropertiesAction" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="F4" />
@@ -15,7 +18,9 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta D" />
+  </action>
   <action id="EditorJoinLines" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorTextEnd">
@@ -27,12 +32,14 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta R" />
-  </action>
+  <action id="GotoLine" />
+  <action id="GotoRow" />
   <action id="ParameterInfo" />
   <action id="Refresh" />
   <action id="RemoteHostView.EditSource">
@@ -40,11 +47,14 @@
   </action>
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="Scala.RunConsole" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta D" />
   </action>
   <action id="SendEOF" />
-  <action id="ShowNavBar" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta I" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
@@ -60,9 +70,9 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
-  <action id="UnselectPreviousOccurrence">
-    <keyboard-shortcut first-keystroke="shift meta D" />
-  </action>
+  <action id="TagDocumentationNavigation" />
+  <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence" />
   <action id="Vcs.UpdateProject" />
   <action id="openAssertEqualsDiff" />
 </keymap>
