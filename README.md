@@ -10,5 +10,9 @@ Copy `idea.vmoptions` to `~/Library/Preferences/IntelliJIdea14/` to override VM 
 #### Disable Git
 
 
-### Missing Plugins
+### Missing Plugins by default
 * File Watcher
+* AngularJS
+* EJS
+* Meteor
+* Markdown
