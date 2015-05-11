@@ -8,3 +8,7 @@ JetBrain IDE Settings, Intellij IDEA 14.x
 Copy `idea.vmoptions` to `~/Library/Preferences/IntelliJIdea14/` to override VM settings.
 
 #### Disable Git
+
+
+### Missing Plugins
+* File Watcher
