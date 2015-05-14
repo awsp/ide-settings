@@ -16,3 +16,4 @@ Copy `idea.vmoptions` to `~/Library/Preferences/IntelliJIdea14/` to override VM 
 * EJS
 * Meteor
 * Markdown
+* ACE Jump
