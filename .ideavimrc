@@ -1,0 +1,8 @@
+imap kj <Esc>
+imap jj <Esc>
+
+let mapleader = " "
+map <leader>a :action $SelectAll<CR>
+map <leader>b :action GotoDeclaration<CR>
+map <leader>[ :action EditorCodeBlockStart<CR>
+map <leader>] :action EditorCodeBlockEnd<CR>
